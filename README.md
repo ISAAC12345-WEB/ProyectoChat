@@ -14,6 +14,10 @@ Configuración:
 
 En el directorio del proyecto, puede ejecutar:
 
+cd .\client\ 
+cd .\server\  
+
+- luego npm start los dos  
 
 ### `comienzo de hilo`
 
