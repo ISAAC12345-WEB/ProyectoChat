@@ -1,4 +1,4 @@
-# Aplicación de chat de localizador médico
+# Aplicación de chat Médico
 
 ## Introducción
 Crearemos una aplicación de chat en tiempo real completa. Vamos a usar React en el front-end, NodeJS en el back-end y todo el chat funciona con https://gstrm.io/js-mastery.
