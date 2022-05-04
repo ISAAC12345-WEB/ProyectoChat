@@ -4,7 +4,12 @@
 Crearemos una aplicación de chat en tiempo real completa. Vamos a usar React en el front-end, NodeJS en el back-end y todo el chat funciona con https://gstrm.io/js-mastery.
 
 Configuración:
-- ejecute ```npm i && npm start``` para el lado del cliente y del servidor para iniciar el servidor de desarrollo
+- ejecute ```npm i && npm start``` para el lado del cliente y del servidor para iniciar el servidor de desarrollo. 
+
+- cd .\client\ 
+- cd .\server\  
+
+- luego npm start los dos  
 
 **Enlaces rápidos**
 - [Referencia de componentes](https://getstream.github.io/stream-chat-react/)
@@ -13,11 +18,6 @@ Configuración:
 - [Kit de interfaz de usuario de chat](https://getstream.io/chat/ui-kit/)
 
 En el directorio del proyecto, puede ejecutar:
-
-- cd .\client\ 
-- cd .\server\  
-
-- luego npm start los dos  
 
 ### `comienzo de hilo`
 
