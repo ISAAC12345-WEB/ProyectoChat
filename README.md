@@ -10,4 +10,4 @@ Configuración:
 - [Referencia de componentes](https://getstream.github.io/stream-chat-react/)
 - [Registrarse](https://getstream.io/chat/trial/) para obtener una clave API para Stream Chat
 - [Tutorial de React Chat](https://getstream.io/chat/react-chat/tutorial/)
-- [Kit de interfaz de usuario de chat] (https://getstream.io/chat/ui-kit/)
+- [Kit de interfaz de usuario de chat](https://getstream.io/chat/ui-kit/)
