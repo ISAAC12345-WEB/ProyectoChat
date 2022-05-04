@@ -6,8 +6,8 @@ Crearemos una aplicación de chat en tiempo real completa. Vamos a usar React en
 Configuración:
 - ejecute ```npm i && npm start``` para el lado del cliente y del servidor para iniciar el servidor de desarrollo. 
 
+Forma mas sencilla:
 - Habra 2 terminales separados, escriba lo siguiente:
-
 - cd .\client\ 
 - cd .\server\  
 
