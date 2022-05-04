@@ -28,7 +28,7 @@ const Auth = () => {
 
         const { username, password, phoneNumber, avatarURL } = form;
 
-        const URL = 'https://localhost:5000/auth';
+        const URL = 'http://localhost:5000/auth';
         // const URL = 'https://medical-pager.herokuapp.com/auth';
 
         const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
@@ -57,11 +57,11 @@ const Auth = () => {
         <div className="auth__form-container">
             <div className="auth__form-container_fields">
                 <div className="auth__form-container_fields-content">
-                    <p>{isSignup ? 'Sign Up' : 'Sign In'}</p>
+                    <p>{isSignup ? 'Inscribirse!!' : 'Registro'}</p>
                     <form onSubmit={handleSubmit}>
                         {isSignup && (
                             <div className="auth__form-container_fields-content_input">
-                                <label htmlFor="fullName">Full Name</label>
+                                <label htmlFor="fullName">Nombre Completo</label>
                                 <input 
                                     name="fullName" 
                                     type="text"
@@ -72,7 +72,7 @@ const Auth = () => {
                             </div>
                         )}
                         <div className="auth__form-container_fields-content_input">
-                            <label htmlFor="username">Username</label>
+                            <label htmlFor="username">Usuario</label>
                                 <input 
                                     name="username" 
                                     type="text"
@@ -83,7 +83,7 @@ const Auth = () => {
                             </div>
                         {isSignup && (
                             <div className="auth__form-container_fields-content_input">
-                                <label htmlFor="phoneNumber">Phone Number</label>
+                                <label htmlFor="phoneNumber">Numero de telefono</label>
                                 <input 
                                     name="phoneNumber" 
                                     type="text"
@@ -106,7 +106,7 @@ const Auth = () => {
                             </div>
                         )}
                         <div className="auth__form-container_fields-content_input">
-                                <label htmlFor="password">Password</label>
+                                <label htmlFor="password">Contraseña</label>
                                 <input 
                                     name="password" 
                                     type="password"
@@ -117,7 +117,7 @@ const Auth = () => {
                             </div>
                         {isSignup && (
                             <div className="auth__form-container_fields-content_input">
-                                <label htmlFor="confirmPassword">Confirm Password</label>
+                                <label htmlFor="confirmPassword">Confirmar contraseña</label>
                                 <input 
                                     name="confirmPassword" 
                                     type="password"
@@ -134,11 +134,11 @@ const Auth = () => {
                     <div className="auth__form-container_fields-account">
                         <p>
                             {isSignup
-                             ? "Already have an account?" 
-                             : "Don't have an account?"
+                             ? "Ya tienes una cuenta ? " 
+                             : "No tienes una cuenta ? "
                              }
                              <span onClick={switchMode}>
-                             {isSignup ? 'Sign In' : 'Sign Up'}
+                             {isSignup ? 'Entrar' : 'Inscribese'}
                              </span>
                         </p>
                     </div>

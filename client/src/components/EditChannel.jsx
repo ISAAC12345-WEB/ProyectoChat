@@ -13,9 +13,9 @@ const ChannelNameInput = ({ channelName = '', setChannelName }) => {
 
     return (
         <div className="channel-name-input__wrapper">
-            <p>Name</p>
+            <p>Nombre</p>
             <input value={channelName} onChange={handleChange} placeholder="channel-name" />
-            <p>Add Members</p>
+            <p>Añadir miembros</p>
         </div>
     )
 }
@@ -46,13 +46,13 @@ const EditChannel = ({ setIsEditing }) => {
     return (
         <div className="edit-channel__container">
             <div className="edit-channel__header">
-                <p>Edit Channel</p>
+                <p>Editar canal</p>
                 <CloseCreateChannel setIsEditing={setIsEditing} />
             </div>
             <ChannelNameInput channelName={channelName} setChannelName={setChannelName} />
             <UserList setSelectedUsers={setSelectedUsers} />
             <div className="edit-channel__button-wrapper" onClick={updateChannel}>
-                <p>Save Changes</p>
+                <p>Guardar cambios</p>
             </div>
         </div>
     )

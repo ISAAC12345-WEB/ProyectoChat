@@ -1,16 +1,13 @@
-# Medical Pager Chat App
+# Aplicación de chat de localizador médico
 
-![Chat Application](https://i.ibb.co/hsvcw4V/image.png)
+## Introducción
+Crearemos una aplicación de chat en tiempo real completa. Vamos a usar React en el front-end, NodeJS en el back-end y todo el chat funciona con https://gstrm.io/js-mastery.
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
+Configuración:
+- ejecute ```npm i && npm start``` para el lado del cliente y del servidor para iniciar el servidor de desarrollo
 
-In this video, we will create a full Realtime Chat Application. We're going to use React on the front end, NodeJS on the back end and the entire chat is powered with https://gstrm.io/js-mastery.
-
-By the end of this video, you will be able to build any real-time chat application you can think of.
-
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
-
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://javascriptmastery.eo.page/mailing-list.
+**Enlaces rápidos**
+- [Referencia de componentes](https://getstream.github.io/stream-chat-react/)
+- [Registrarse](https://getstream.io/chat/trial/) para obtener una clave API para Stream Chat
+- [Tutorial de React Chat](https://getstream.io/chat/react-chat/tutorial/)
+- [Kit de interfaz de usuario de chat] (https://getstream.io/chat/ui-kit/)
