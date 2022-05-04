@@ -25,7 +25,7 @@ También verá cualquier error de pelusa en la consola.
 ### `prueba de hilo`
 
 Inicia el corredor de prueba en el modo de reloj interactivo.\
-Consulte la sección sobre [ejecutar pruebas] (https://facebook.github.io/create-react-app/docs/running-tests) para obtener más información.
+Consulte la sección sobre [ejecutar pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para obtener más información.
 
 ### `construcción de hilo`
 
